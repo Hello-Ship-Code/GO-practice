@@ -101,5 +101,3 @@ If you're learning Go too or have tips, feel free to open an issue or suggest im
 
 Happy Coding! 🚀
 ```
-
----
