@@ -1,103 +1,62 @@
-# Go Practice Projects 🚀
+# GO Practice
 
-Welcome to my **Go (Golang) Practice Repository**!  
-This is where I learn, explore, and build demo projects using Go — starting from basics and gradually diving into more advanced concepts.
-
----
-
-## 📘 What You’ll Find Here
-
-- ✅ Simple Go programs to understand syntax and core concepts.
-- 📂 Organized into folders by topic or project.
-- 💡 Real-world mini-projects as I grow in Go.
+I am learning **Go (Golang)** in this repo.
+This space is for practicing Go basics, writing small programs, and building up to real-world projects. 🚀
 
 ---
 
-## 📁 Structure
+## 📁 Folder Structure
 
 ```bash
 go-practice/
-├── 01-hello-world/
-│   └── main.go
-├── 02-variables/
-│   └── variables.go
-├── 03-functions/
-│   └── sum.go
-├── 04-user-input/
-│   └── input.go
-├── README.md
-```
-
-Each folder focuses on one topic or concept with a single entry-point (`main.go`) or a focused file.
-
----
-
-## 🧠 Concepts Covered (So Far)
-
-- ✅ Printing to console
-- ✅ Declaring and using variables
-- ✅ Functions and return values
-- ✅ Taking user input
-- ✅ Using packages and organizing code
-
-More coming soon as I explore Go deeper!
-
----
-
-## 🚀 Example Snippet
-
-```go
-package main
-
-import "fmt"
-
-func sum(a int, b int) int {
-	return a + b
-}
-
-func main() {
-	fmt.Println("Hello world")
-
-	a, b := 1, 5
-	result := sum(a, b)
-	fmt.Println("The sum of", a, "+", b, "=", result)
-}
+├── 01-hello-world/     # Basic "Hello World" program
+├── 02-variables/       # Variable declarations and types
+├── 03-functions/       # Function definitions and usage
+├── 04-user-input/      # Reading user input from terminal
+├── README.md           # This file
 ```
 
 ---
 
-## 🛠 Requirements
+## ✅ Topics Covered
 
-- Go installed (use `go version` to check)
-- VS Code or any code editor
-- (Optional) Go extension for VS Code for better experience
-
----
-
-## 📌 Goals
-
-- Build strong fundamentals in Go
-- Practice clean code and project organization
-- Prepare for real-world Go development
+* Printing to the console
+* Variables and data types
+* Functions and return values
+* User input with `fmt.Scan`
+* Basic code organization
 
 ---
 
-## 📅 Progress
+## 🧠 Learning Goals
 
-I'm continuously updating this repo with:
-- New topics
-- Practice exercises
-- Small Go utilities
-
-Stay tuned 👨‍💻
+* Understand Go syntax and core concepts
+* Write clean, readable code
+* Build confidence with Go's tooling and structure
+* Eventually build mini-projects and tools
 
 ---
 
-## 📬 Feedback / Suggestions
+## 🔧 Requirements
 
-If you're learning Go too or have tips, feel free to open an issue or suggest improvements!
+* Go installed (`go version`)
+* A code editor like VS Code
+* (Optional) VS Code Go extension for better experience
 
 ---
 
-Happy Coding! 🚀
-```
+## 📌 Progress
+
+This repo will keep growing as I learn more.
+
+Stay tuned for updates, mini-projects, and more Go exploration!
+
+---
+
+## 🙌 Feedback
+
+If you're also learning Go or have suggestions, feel free to open an issue or share tips!
+
+---
+
+Happy Hacking! 😄
